@@ -38,10 +38,10 @@ define("APPURL", "http://localhost/forum");
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="<?php echo APPURL; ?>">
-  <i class="fas fa-school"></i> PTCian Corner
+  <i class="fas fa-school fs-3"></i> PTCian Corner
 </a>
         </div> 
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse fs-2">
           <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="<?php echo APPURL; ?>">Home</a></li>
             <?php if(isset($_SESSION['username'])) : ?>

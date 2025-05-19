@@ -54,7 +54,6 @@ if (isset($_POST['submit'])) {
             <div class="main-col">
                 <div class="block">
                     <h1 class="pull-left">Update Topic</h1>
-                    <h4 class="pull-right">A Simple Forum</h4>
                     <div class="clearfix"></div>
                     <hr>
 

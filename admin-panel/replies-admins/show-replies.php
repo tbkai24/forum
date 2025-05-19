@@ -74,7 +74,7 @@ $allReplies = $replies->fetchAll(PDO::FETCH_OBJ);
                     <th scope="row"><?php echo $reply->id; ?></th>
                     <td><?php echo $reply->reply; ?></td>
                     <td><?php echo $reply->user_name; ?></td>
-                    <td><a href="http://localhost/forum/topics/topic.php?id=<?php echo $reply->topics_id; ?>" class="btn btn-success text-center ">go to topic</a></td>
+                    <td><a href="http://localhost/forum/topics/topic.php?id=<?php echo $reply->topics_id; ?>" class="btn btn-success text-center ">Go to topic</a></td>
                     <td><a href="delete-replies.php?id=<?php echo $reply->id; ?>" class="btn btn-danger text-center ">delete</a></td>
                   </tr>
                   <?php endforeach; ?>
