@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 18, 2025 at 01:32 PM
+-- Generation Time: May 19, 2025 at 04:30 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -88,11 +88,6 @@ CREATE TABLE `replies` (
 --
 
 INSERT INTO `replies` (`id`, `reply`, `user_id`, `user_image`, `topics_id`, `user_name`, `created_at`) VALUES
-(68, 'Are you looking for real-world examples of how these structures function? It might help to compare companies that use different models.', 20, '', 131, 'edward', '2025-03-26 16:51:27'),
-(69, 'What specific areas are you looking to improve? (e.g., productivity, household chores, cooking, studying, etc.', 17, '', 132, 'mama', '2025-03-26 23:37:59'),
-(70, 'That’s a great one! Are you also interested in tech or digital life hacks, like better ways to manage emails or organize files?', 21, '', 132, 'versoza', '2025-03-26 23:39:45'),
-(71, 'ugugui', 24, '', 131, '3466', '2025-03-30 17:21:49'),
-(72, 'hihi', 24, '', 136, '3466', '2025-03-30 17:23:31'),
 (73, 'reply', 25, '', 141, '', '2025-05-18 11:19:29');
 
 -- --------------------------------------------------------
